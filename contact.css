@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border : none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding : 10px 10%;
+    box-shadow: 5px 2px 5px #aaaaaa;
+    z-index: 100;
+    font-family: sans-serif;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+}
+
+a{
+    margin-left: 5px;
+    color: brown;
+    font-size: large;
+    font-family: inherit;
+    padding: 0 15px;
+}
+  
+section {
+    padding : 20px 10%;
+    /* display: block; */
+}
+
+.form{
+    background-image: url("images/s-img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 700px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.form .img-back {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom : 0;
+    opacity: 0.65;
+}
+
+.form {
+    padding : 120px 0;
+}
+.form .content {
+    color : white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+}
+
+.content .left,.right{
+    position: relative;
+    /* max-width: 50%; */
+    flex : 40%;
+}
+
+.content .left h3 {
+    padding-bottom: 20px;
+    font-weight: 600px;
+    font-size: 50px;
+    font-family: "Poppins",sans-serif;
+}
+
+.content .right form {
+    background-color: white;
+    padding: 70px 50px;
+    text-align: center;
+    display: block;
+}
+
+.reserve {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #9999;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: visible;
+    font-family: inherit;
+    cursor: text;
+    width: 100%;
+}
+
+.btn {
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+/* foot */
+.footer {
+    background-color: rgb(14, 13, 13);
+    color : white
+}
+  
+.footer .share {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.share .left h3 {
+    
+    padding-bottom: 20px;
+    font-weight: 600px;
+    font-size: 30px;
+}
+  
+.share .left li{
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px dotted white;
+    justify-content: space-between;
+}
+  
+.share .right h3:first-child{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+  
