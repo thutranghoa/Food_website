@@ -259,7 +259,7 @@ section{
 .share-t{
     letter-spacing:0;
     line-height:26px;
-    min-width:60px;
+    width:60px;
     white-space: nowrap;
 }
 .image-contant{
@@ -317,7 +317,7 @@ section{
 
 @media(max-width:768px){
 
-  #menu-bar{
+  .navbar{
     display: initial;
   }
 
@@ -348,10 +348,6 @@ section{
 
   html{
     font-size: 50%;
-  }
-
-  .order .row form .inputBox input{
-    width:100%;
   }
 
 }
