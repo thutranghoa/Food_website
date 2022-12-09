@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+  outline: none; 
+  border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition:all .2s linear;
+}
+
+
+section{
+  padding:20px;
+}
+.our-details{
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+  left:0;
+  position:absolute;
+  top:100px;
+  width:100%;
+  padding: 30px;
+}
+.bg{
+  background-image: url('images/bg.jpg');
+}
+.our-details h1{
+  color:black;
+  margin-right:2px;
+  white-space: nowrap;
+  font-size: 40px;
+}
+.our-details .group-ps{
+  align-items:flex-start;
+  display:flex;
+}
+.our-details .group-ps .shop{
+  color: orangered;
+  font-size:20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.our-details .group-ps .caven{
+  color: black;
+  font-size:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+.our-details .group-ps .place{
+  color:black;
+  font-size:20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+/* menu details*/
+.pizza-detail{
+    align-items: flex-start;
+    display:flex;
+    gap:5px;
+    height:718px;
+    margin-left:100px;
+    margin-top:300px;
+    width:1328px;
+}
+.flex-col-1{
+  align-items:flex-start;
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  height:588px;
+  width:100px;
+}
+.pizza-side{
+  height:109px;
+  width:112px;
+}
+.pizza-m{
+  height:510px;
+  width:431px;
+}
+.flex-col-2{
+    align-items: flex-start;
+    display:flex;
+    flex-direction:column;
+    height:718px;
+    width:600px;
+}
+.group-container{
+    align-items: flex-start;
+    display:flex;
+    gap:380px;
+    height:32px;
+    min-width:618px;
+}
+.chi-dan{
+    align-items: center;
+    display:flex;
+    height:26px;
+    width:152px;
+}
+.prev{
+    color: gray;
+    letter-spacing:0;
+    line-height:26px;
+    margin-left:4px;
+    min-width:39px;
+    white-space: nowrap;
+}
+.arrow-r{
+    height:24px;
+    margin-left:200px;
+    width:24px;
+}
+.arrow-l{
+    height:24px;
+    width:24px;
+}
+.next{
+  color: gray;
+    letter-spacing:0;
+    line-height:26px;
+    margin-left:16px;
+    min-width:41px;
+    white-space: nowrap;
+}
+
+.pizza-heading{
+  color:black;
+  font-weight:700;
+  margin-top:8px;
+  white-space: nowrap;
+  font-size: 35px;
+}
+.mota-pizza{
+  letter-spacing:0;
+  line-height:26px;
+  margin-top:24px;
+  min-height:97px;
+  width:608px;
+}
+.gia-pizza{
+  color:orangered;
+  font-weight:700;
+  font-size: 20px;
+  margin-top:32px;
+  white-space: nowrap;
+}
+.rating{
+  align-items:center;
+  display:flex;
+  gap:14px;
+  margin-top:16px;
+  width:333px;
+}
+.stars{
+  align-items:flex-start;
+  display:flex;
+  gap:4px;
+  width:116px;
+}
+.star{
+  height:20px;
+  width:20px;
+}
+.rataing{
+  align-items:center;
+  display:flex;
+  height:20px;
+  width:200px;
+}
+.rating-score{
+  letter-spacing:0;
+  white-space: nowrap;
+  border-left: 1px solid grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.review-count{
+  letter-spacing:0;
+  white-space: nowrap;
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
+.overlap-group-container{
+  align-items:flex-start;
+  display:flex;
+  margin-top:25px;
+  width:388px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.overlap-group{
+  align-items:center;
+  background-color:orangered;
+  display:flex;
+  gap:8px;
+  height:50px;
+  width:150px;
+  padding:0 20px;
+}
+.video{
+  height:20px;
+  width:20px;
+}
+
+.category{
+  margin-top:20px;
+}
+
+
+.social-content{
+    height:24px;
+    width:184px;
+}
+.share-t{
+    letter-spacing:0;
+    line-height:26px;
+    min-width:60px;
+    white-space: nowrap;
+}
+.image-contant{
+  align-items:flex-start;
+  display:flex;
+  gap:24px;
+  width:600px;
+}
+
